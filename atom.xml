@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-06-04T14:59:25.885Z</updated>
+  <updated>2019-06-07T16:13:28.139Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>html֮Canvas</title>
+    <link href="http://yoursite.com/2019/06/08/html%E4%B9%8BCanvas/"/>
+    <id>http://yoursite.com/2019/06/08/html之Canvas/</id>
+    <published>2019-06-07T16:00:00.000Z</published>
+    <updated>2019-06-07T16:13:28.139Z</updated>
+    
+    <content type="html"><![CDATA[<p>canvas��canvas id=”myCanvas” width=”” height=””</p><p>cxt.beginPath�� �÷������ڿ�ʼһ��·���������õ�ǰ��·����<br>closePath�� �÷������ڴ����ӵ�ǰ�㵽��ʼ���·����</p><p>cxt.moveTo��cxt.lineTo��cxt.stroke��cxt.strokeStyle :���߶Σ�x,y��-&gt;(x,y),cxt.strokeStyle�߶���ɫ��cxt.stroke��ʾ������</p><p>cxt.fillStyle��cxt.arc�� cxt.fillStyle�����������ͼ�ε���ɫ��cxt.arc(x, y, radius, startAngle, endAngle, counterclockwise)�ֱ��ʾ�����ꡢ�����ꡢ�뾶<br>����ʼ�Ƕȣ�0���������Ƕȣ�Math.PI*2����˳ʱ�루false������ʱ�루true����</p><p>context.createLinearGradient(x0,y0,x1,y1): x0���俪ʼ�ĺ����꣬y0���俪ʼ�������꣬x1��������ĺ����꣬y1���������������</p><p>grd.addColorStop(stop,color)�� stop���� 0.0 �� 1.0 ֮���ֵ����ʾ�����п�ʼ�����֮���λ�ã�color�ڽ���λ����ʾ�� CSS ��ɫֵ</p><p>context.fillRect(x,y,width,height)�� x�������Ͻǵ� x ���꣬y�������Ͻǵ� y ���꣬width���εĿ��ȣ������ؼƣ�height���εĸ߶ȣ������ؼ�</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;canvas��canvas id=”myCanvas” width=”” height=””&lt;/p&gt;
+&lt;p&gt;cxt.beginPath�� �÷������ڿ�ʼһ��·���������õ�ǰ��·����&lt;br&gt;closePath�� �÷������ڴ����ӵ�ǰ
+      
+    
+    </summary>
+    
+      <category term="HTML" scheme="http://yoursite.com/categories/HTML/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>html5的布局</title>
