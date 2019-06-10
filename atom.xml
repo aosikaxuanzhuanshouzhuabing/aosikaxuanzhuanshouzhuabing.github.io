@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-06-09T15:01:57.967Z</updated>
+  <updated>2019-06-10T09:45:15.599Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>html媒体</title>
+    <link href="http://yoursite.com/2019/06/10/html%E5%AA%92%E4%BD%93/"/>
+    <id>http://yoursite.com/2019/06/10/html媒体/</id>
+    <published>2019-06-09T16:00:00.000Z</published>
+    <updated>2019-06-10T09:45:15.599Z</updated>
+    
+    <content type="html"><![CDATA[<p>视频格式<br>AVI（.avi）：所有window计算机支持<br>WMV（.wmv）: 微软开发，要安装相应播放器<br>MPEG（.mpg或.mpeg）： 所有最流行的浏览器支持<br>QuickTime（.mov）： 苹果开发，要安装相应播放器<br>RealVideo（.rm或.ram）： 允许低宽带，但视频质量降低<br>Flash（.swf或.flv）： 安装相应组建，IE与firefox预装支持<br>Mpeg-4（.mp4）： 即MP4</p><p>声音格式<br>MIDI（.mid或.midi）: MIDI 文件不含有声音，但包含可被电子产品（比如声卡）播放的数字音乐指令。因为 MIDI 格式仅包含指令，所以 MIDI 文件极巧。大多数浏览器支持。<br>RealAudio(.rm或.ram) : 允许低宽带，但质量降低<br>Wave(.wav) :IBM 和微软开发的。所有运行 Windows 的计算机和所有网络浏览器（除了 Google Chrome）都支持它<br>WMA(.wma) :质量优于 MP3，兼容大多数播放器，除了 iPod。WMA 文件可作为连续的数据流来传输，这使它对于网络电台或在线音乐很实用。<br>MP3(.mp3或.mpga) :  MP3 文件实际上是 MPEG 文件的声音部分。</p><p>object: 标签用于包含对象，比如图像、音频、视频、Java applets、ActiveX、PDF 以及 Flash。<br>classid： 控件的ID<br>codebase： 定义在何处可找到对象所需的代码，提供一个基准 URL。<br>param: 设置run-time</p><p>embed： 无法在html4中使用，要有支持的文件格式与相应插件<br>src：只能在embed中使用</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;视频格式&lt;br&gt;AVI（.avi）：所有window计算机支持&lt;br&gt;WMV（.wmv）: 微软开发，要安装相应播放器&lt;br&gt;MPEG（.mpg或.mpeg）： 所有最流行的浏览器支持&lt;br&gt;QuickTime（.mov）： 苹果开发，要安装相应播放器&lt;br&gt;RealVid
+      
+    
+    </summary>
+    
+      <category term="HTML" scheme="http://yoursite.com/categories/HTML/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>html之svg</title>
