@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-12T16:07:44.924Z</updated>
+  <updated>2019-07-12T16:10:12.227Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>XHTML-DTD</title>
+    <title></title>
     <link href="http://yoursite.com/2019/07/13/XHTML-DTD/"/>
     <id>http://yoursite.com/2019/07/13/XHTML-DTD/</id>
-    <published>2019-07-12T16:06:55.000Z</published>
-    <updated>2019-07-12T16:07:44.924Z</updated>
+    <published>2019-07-12T16:06:55.505Z</published>
+    <updated>2019-07-12T16:10:12.227Z</updated>
     
     <content type="html"><![CDATA[<!DOCTYPE html> <html lang="zh"> <head><meta name="generator" content="Hexo 3.8.0"> <meta charset="utf-8"> <title>Markdown���߱༭�� - www.MdEditor.com</title> <link rel="shortcut icon" href="https://www.mdeditor.com/images/logos/favicon.ico" type="image/x-icon"> </head> <body><p>xhtml1.0֧������DTD���ĵ����Ͷ��壩�����������ԣ�Transitional�����ϸ��ͣ�Strict���Ϳ���ͣ�Frameset����<br>�ϸ��ͣ�Strict<br>&lt;!DOCTYPE htmlPUBLIC ��-//W3C//DTD XHTML 1.0 Strict//EN��<br>��<a href="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;" target="_blank" rel="noopener">http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;</a></p> <p>�����ͣ�Transitional<br>&lt;!DOCTYPE html<br>PUBLIC ��-//W3C//DTD XHTML 1.0 Transitional//EN��<br>��<a href="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;" target="_blank" rel="noopener">http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;</a></p> <p>������ͣ�Frameset<br>&lt;!DOCTYPE html<br>PUBLIC ��-//W3C//DTD XHTML 1.0 Frameset//EN��<br>��<a href="http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd&quot;&gt;" target="_blank" rel="noopener">http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd"&gt;</a></p> <p>�������ĵ����Ͷ��ڱ�ǩ�����Ե��﷨Ҫ���Ǻ��ϸ�������ҳ����ʹ��HTML 4.01�ı�ǩ������XHTML�﷨��׼����</p> <p>�ϸ����ĵ����Ͷ����ĵ��ڵĴ���Ҫ��Ƚ��ϸ񣬲�����ʹ���κα��ֲ�ı�ǩ�����ԡ�<br>���ϸ����ĵ������У�����Ԫ�ؽ�����֧�֣�<br>center: ���У����ڱ��ֲ㣩 </p><p>font : ������ʽ�����С����ɫ����ʽ�����ڱ��ֲ�) </p> <p>strike:ɾ���ߣ����ڱ��ֲ㣩</p> <p>s ��:��ɾ���ߣ����ڱ��ֲ㣩</p> <p>u ��:���ı��»��ߣ����ڱ��ֲ㣩</p> <p>iframe:��Ƕ��ʽ��ܴ��ڣ�ר���ڿ���ĵ����ͻ�������ĵ���</p> <p>isindex:����ʾ�û����뵥���ı�����inputԪ�������ظ���</p> <p>dir��������Ŀ¼�б�����dlԪ�������ظ���</p> <p>menu��������˵��б�����ulԪ�������ظ���</p> <p>basefont���������ĵ�Ĭ���������ԣ����ڱ��ֲ㣩</p> <p>applet������������������objectԪ�������ظ���</p> <p>���ϸ����ĵ������У��������Խ�����֧�֣�</p> <p>align(֧��table���������Ԫ�أ�tr��td��th��col��colgroup��thead��tbody��tfoot��</p> <p>language</p> <p>background</p> <p>bgcolor</p> <p>border��tableԪ��֧�֣�</p> <p>height��img��objectԪ��֧�֣� </p> <p>hspace </p> <p>name����HTML 4.01 Strict��֧�֣���XHTML 1.0 Strict�е�form��imgԪ�ز�֧�֣�</p> <p>noshade</p> <p>nowrap </p> <p>target </p> <p>text��link��vlink��alink</p> <p>vspace</p> <p>width��img��object��table��col��colgroupԪ��֧�֣�</p> <p>������ĵ�������һ��ר����Կ��ҳ����ʹ�õ�DTD����ҳ���к��п��Ԫ��ʱ����Ӧ�ò�������DTD��</p> <p>ps������ʹ�ù�����</p> <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false,"tagMode":false});</script></body> </html>]]></content>
     
