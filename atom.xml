@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-03T14:30:54.075Z</updated>
+  <updated>2019-09-03T09:45:52.595Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,29 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>test</title>
-    <link href="http://yoursite.com/2019/09/03/test/"/>
-    <id>http://yoursite.com/2019/09/03/test/</id>
-    <published>2019-09-03T14:00:17.000Z</published>
-    <updated>2019-09-03T14:30:54.075Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="//yoursite.com/2019/09/03/test/x.jpg" alt="你想输入的替代文字"></p><p>SADs</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;img src=&quot;//yoursite.com/2019/09/03/test/x.jpg&quot; alt=&quot;你想输入的替代文字&quot;&gt;&lt;/p&gt;
-&lt;p&gt;SADs&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>bootstrap之navbar</title>
@@ -57,6 +34,29 @@
 &lt;p&gt;.navbar-default——指定导航条组件为默认主题；&lt;/p&gt;
 &lt;p&gt;.navbar-inverse——指定导航条组件为黑色主题；&lt;/p&gt;
 &lt;p&gt;.navbar-fixed
+      
+    
+    </summary>
+    
+      <category term="bootstrap" scheme="http://yoursite.com/categories/bootstrap/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>bootstrap之排版</title>
+    <link href="http://yoursite.com/2019/09/03/bootstrap%E4%B9%8B%E6%8E%92%E7%89%88/"/>
+    <id>http://yoursite.com/2019/09/03/bootstrap之排版/</id>
+    <published>2019-09-02T16:00:00.000Z</published>
+    <updated>2019-09-03T14:51:41.672Z</updated>
+    
+    <content type="html"><![CDATA[<p>lead    使段落突出显示<br>.small    设定小文本 (设置为父文本的 85% 大小)<br>.text-left    设定文本左对齐<br>.text-center    设定文本居中对齐<br>.text-right    设定文本右对齐<br>.text-justify    设定文本对齐,段落中超出屏幕部分文字自动换行<br>.text-nowrap    段落中超出屏幕部分不换行<br>.text-lowercase    设定文本小写<br>.text-uppercase    设定文本大写<br>.text-capitalize    设定单词首字母大写<br>.initialism    显示在 <abbr> 元素中的文本以小号字体展示，且可以将小写字母转换为大写字母<br>.blockquote-reverse    设定引用右对齐<br>.list-unstyled    移除默认的列表样式，列表项中左对齐 ( <ul> 和 <ol> 中)。 这个类仅适用于直接子列表项 (如果需要移除嵌套的列表项，你需要在嵌套的列表中使用该样式)<br>.list-inline    将所有列表项放置同一行<br>.dl-horizontal    该类设置了浮动和偏移，应用于 <dl> 元素和 <dt> 元素中，具体实现可以查看实例<br>.pre-scrollable    使 <pre> 元素可滚动，代码块区域最大高度为340px,一旦超出这个高度,就会在Y轴出现滚动条</pre></dt></dl></ol></ul></abbr></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;lead    使段落突出显示&lt;br&gt;.small    设定小文本 (设置为父文本的 85% 大小)&lt;br&gt;.text-left    设定文本左对齐&lt;br&gt;.text-center    设定文本居中对齐&lt;br&gt;.text-right    设定文本右对齐&lt;br&gt;.te
       
     
     </summary>
