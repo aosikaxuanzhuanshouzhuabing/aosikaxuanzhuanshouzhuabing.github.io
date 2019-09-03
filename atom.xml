@@ -67,6 +67,29 @@
   </entry>
   
   <entry>
+    <title>bootstrap之栅格</title>
+    <link href="http://yoursite.com/2019/09/03/bootstrap%E4%B9%8B%E6%A0%85%E6%A0%BC/"/>
+    <id>http://yoursite.com/2019/09/03/bootstrap之栅格/</id>
+    <published>2019-09-02T16:00:00.000Z</published>
+    <updated>2019-09-03T15:02:36.839Z</updated>
+    
+    <content type="html"><![CDATA[<p>超小设备手机（&lt;768px）<br>网格行为    一直是水平的<br>最大容器宽度    None (auto)<br>Class 前缀    .col-xs-<br>总计：12列<br>最大列宽    Auto<br>间隙宽度    30px（一个列的每边分别 15px）<br>可嵌套    Yes<br>偏移量    Yes<br>列排序    Yes</p><p>小型设备平板电脑（≥768px）<br>网格行为    以折叠开始，断点以上是水平的<br>最大容器宽度    750px<br>Class 前缀    .col-sm-<br>总计：12列<br>最大列宽    60px<br>间隙宽度    30px（一个列的每边分别 15px）<br>可嵌套    Yes<br>偏移量    Yes<br>列排序    Yes</p><p>中型设备台式电脑（≥992px）<br>网格行为    以折叠开始，断点以上是水平的<br>最大容器宽度    970px<br>Class 前缀    .col-md-<br>总计：12列<br>最大列宽    78px<br>间隙宽度    30px（一个列的每边分别 15px）<br>可嵌套    Yes<br>偏移量    Yes<br>列排序    Yes</p><p>大型设备台式电脑（≥1200px）<br>网格行为    以折叠开始，断点以上是水平的<br>最大容器宽度    1170px<br>Class 前缀    .col-lg-<br>总计：12列<br>最大列宽    95px<br>间隙宽度    30px（一个列的每边分别 15px）<br>可嵌套    Yes<br>偏移量    Yes<br>列排序    Yes</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;超小设备手机（&amp;lt;768px）&lt;br&gt;网格行为    一直是水平的&lt;br&gt;最大容器宽度    None (auto)&lt;br&gt;Class 前缀    .col-xs-&lt;br&gt;总计：12列&lt;br&gt;最大列宽    Auto&lt;br&gt;间隙宽度    30px（一个列的每边分别 1
+      
+    
+    </summary>
+    
+      <category term="bootstrap" scheme="http://yoursite.com/categories/bootstrap/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>XHTML-DTD</title>
     <link href="http://yoursite.com/2019/07/12/XHTML-DTD/"/>
     <id>http://yoursite.com/2019/07/12/XHTML-DTD/</id>
