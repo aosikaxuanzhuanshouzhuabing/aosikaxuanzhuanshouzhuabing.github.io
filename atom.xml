@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-05T15:44:13.292Z</updated>
+  <updated>2019-09-05T15:47:23.172Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>bootstrap之代码</title>
+    <title>bootstrap之表格</title>
     <link href="http://yoursite.com/2019/09/05/bootstrap%E4%B9%8B%E8%A1%A8%E6%A0%BC/"/>
     <id>http://yoursite.com/2019/09/05/bootstrap之表格/</id>
     <published>2019-09-04T16:00:00.000Z</published>
-    <updated>2019-09-05T15:44:13.292Z</updated>
+    <updated>2019-09-05T15:47:23.172Z</updated>
     
-    <content type="html"><![CDATA[<p> table      为表格添加基础样式。<br> thead      表格标题行的容器元素（ tr  ），用来标识表格列。<br> tbody      表格主体中的表格行的容器元素（ tr  ）。<br> tr      一组出现在单行上的表格单元格的容器元素（ td   或  th  ）。<br> td      默认的表格单元格。<br> th      特殊的表格单元格，用来标识列或行（取决于范围和位置）。必须在  thead   内使用。<br> caption      关于表格存储内容的描述或总结。</p><p>table类<br> table    为任意 <table> 添加基本样式 (只有横向分隔线)<br> table-striped    在 <tbody> 内添加斑马线形式的条纹 ( IE8 不支持)<br> table-bordered    为所有表格的单元格添加边框<br> table-hover    在 <tbody> 内的任一行启用鼠标悬停状态<br> table-condensed    让表格更加紧凑<br> table-responsive    响应式布局    </tbody></tbody></table></p><p>tr，td，th，类<br>active    将悬停的颜色应用在行或者单元格上（灰色）<br>.success    表示成功的操作    （绿色）<br>.info    表示信息变化的操作    （蓝色）<br>.warning    表示一个警告的操作    （黄色）<br>.danger    表示一个危险的操作（红色）</p>]]></content>
+    <content type="html"><![CDATA[<p> table      为表格添加基础样式。<br> thead      表格标题行的容器元素（ tr  ），用来标识表格列。<br> tbody      表格主体中的表格行的容器元素（ tr  ）。<br> tr      一组出现在单行上的表格单元格的容器元素（ td   或  th  ）。<br> td      默认的表格单元格。<br> th      特殊的表格单元格，用来标识列或行（取决于范围和位置）。必须在  thead   内使用。<br> caption      关于表格存储内容的描述或总结。</p><p>table类<br> table    为任意 table 添加基本样式 (只有横向分隔线)<br> table-striped    在 tbody 内添加斑马线形式的条纹 ( IE8 不支持)<br> table-bordered    为所有表格的单元格添加边框<br> table-hover    在 tbody 内的任一行启用鼠标悬停状态<br> table-condensed    让表格更加紧凑<br> table-responsive    响应式布局    </p><p>tr，td，th，类<br>active    将悬停的颜色应用在行或者单元格上（灰色）<br>.success    表示成功的操作    （绿色）<br>.info    表示信息变化的操作    （蓝色）<br>.warning    表示一个警告的操作    （黄色）<br>.danger    表示一个危险的操作（红色）</p>]]></content>
     
     <summary type="html">
     
@@ -44,15 +44,42 @@
     <link href="http://yoursite.com/2019/09/05/bootstrap%E4%B9%8B%E4%BB%A3%E7%A0%81/"/>
     <id>http://yoursite.com/2019/09/05/bootstrap之代码/</id>
     <published>2019-09-04T16:00:00.000Z</published>
-    <updated>2019-09-05T14:42:48.703Z</updated>
+    <updated>2019-09-05T15:49:33.338Z</updated>
     
-    <content type="html"><![CDATA[<p>var：描述变量，使变量略微倾斜<br>kbd：表示按键输入<br>pre：显示出的效果与源码一致，可换行，可显示空格<br>pre class=”pre-scrollable” :使多行代码带有滚动条<br>samp：表示电脑输入<br>code：表示代码片段（背景变红）<br>&lt;  与  &amp;gt；    ：表示  &lt;   与   &gt;</p>]]></content>
+    <content type="html"><![CDATA[<p>var：描述变量，使变量略微倾斜<br>kbd：表示按键输入<br>pre：显示出的效果与源码一致，可换行，可显示空格<br>pre class=”pre-scrollable” :使多行代码带有滚动条<br>samp：表示电脑输入<br>code：表示代码片段（背景变红）<br>&amp; lt;  与  &amp; gt；    ：表示  &lt;   与   &gt;</p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;var：描述变量，使变量略微倾斜&lt;br&gt;kbd：表示按键输入&lt;br&gt;pre：显示出的效果与源码一致，可换行，可显示空格&lt;br&gt;pre class=”pre-scrollable” :使多行代码带有滚动条&lt;br&gt;samp：表示电脑输入&lt;br&gt;code：表示代码片段（背景变红）
+      
+    
+    </summary>
+    
+      <category term="bootstrap" scheme="http://yoursite.com/categories/bootstrap/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>bootstrap之navbar</title>
+    <link href="http://yoursite.com/2019/09/03/bootstrap%E4%B9%8Bnavbar/"/>
+    <id>http://yoursite.com/2019/09/03/bootstrap之navbar/</id>
+    <published>2019-09-02T16:00:00.000Z</published>
+    <updated>2019-09-03T09:45:52.595Z</updated>
+    
+    <content type="html"><![CDATA[<p>bootstrap</p><p>.navbar——设置nav元素为导航条组件；</p><p>.navbar-default——指定导航条组件为默认主题；</p><p>.navbar-inverse——指定导航条组件为黑色主题；</p><p>.navbar-fixed-top——设置导航条组件固定在顶部；</p><p>.navbar-fixed-bottom——设置导航条组件固定在底部；</p><p>.container-fluid——设置宽度充满父元素，即为100%；</p><p>.navbar-header——主要指定div元素为导航条组件包裹品牌图标及切换按钮；</p><p>.navbar-toggle——设置button元素为导航条组件的切换钮；</p><p>.collapsed——设置button元素为在视口小于768px时才显示；</p><p>.navbar-brand——设置导航条组件内的品牌图标；</p><p>navbar-brand默认是放文字的,也可以放图片，但必须是小图片,如果图片太大，位置就会靠下.</p><p>.navbar-nav——设置ul为导航条组件内的列表元素;</p><p>.navbar-left——设置导航条内元素向左对齐；</p><p>.navbar-right——设置导航条内元素向右对齐；</p><p>.navbar-form——为导航条组件内部的表单组件；</p><p>navbar-form：主要调整所有form都为行内元素</p><p>.navbar-btn——为导航条组件内部的按钮样式；</p><p>.navbar-text——为导航条组件内部的文本样式；</p><p>.navbar-link——在标准的导航组件之外添加标准链接，让链接有正确的颜色和反色设置；</p><p>.breadcrumb——设置列表元素显示为路径导航组件；</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;bootstrap&lt;/p&gt;
+&lt;p&gt;.navbar——设置nav元素为导航条组件；&lt;/p&gt;
+&lt;p&gt;.navbar-default——指定导航条组件为默认主题；&lt;/p&gt;
+&lt;p&gt;.navbar-inverse——指定导航条组件为黑色主题；&lt;/p&gt;
+&lt;p&gt;.navbar-fixed
       
     
     </summary>
@@ -99,33 +126,6 @@
       
       
         &lt;p&gt;超小设备手机（&amp;lt;768px）&lt;br&gt;网格行为    一直是水平的&lt;br&gt;最大容器宽度    None (auto)&lt;br&gt;Class 前缀    .col-xs-&lt;br&gt;总计：12列&lt;br&gt;最大列宽    Auto&lt;br&gt;间隙宽度    30px（一个列的每边分别 1
-      
-    
-    </summary>
-    
-      <category term="bootstrap" scheme="http://yoursite.com/categories/bootstrap/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>bootstrap之navbar</title>
-    <link href="http://yoursite.com/2019/09/03/bootstrap%E4%B9%8Bnavbar/"/>
-    <id>http://yoursite.com/2019/09/03/bootstrap之navbar/</id>
-    <published>2019-09-02T16:00:00.000Z</published>
-    <updated>2019-09-03T09:45:52.595Z</updated>
-    
-    <content type="html"><![CDATA[<p>bootstrap</p><p>.navbar——设置nav元素为导航条组件；</p><p>.navbar-default——指定导航条组件为默认主题；</p><p>.navbar-inverse——指定导航条组件为黑色主题；</p><p>.navbar-fixed-top——设置导航条组件固定在顶部；</p><p>.navbar-fixed-bottom——设置导航条组件固定在底部；</p><p>.container-fluid——设置宽度充满父元素，即为100%；</p><p>.navbar-header——主要指定div元素为导航条组件包裹品牌图标及切换按钮；</p><p>.navbar-toggle——设置button元素为导航条组件的切换钮；</p><p>.collapsed——设置button元素为在视口小于768px时才显示；</p><p>.navbar-brand——设置导航条组件内的品牌图标；</p><p>navbar-brand默认是放文字的,也可以放图片，但必须是小图片,如果图片太大，位置就会靠下.</p><p>.navbar-nav——设置ul为导航条组件内的列表元素;</p><p>.navbar-left——设置导航条内元素向左对齐；</p><p>.navbar-right——设置导航条内元素向右对齐；</p><p>.navbar-form——为导航条组件内部的表单组件；</p><p>navbar-form：主要调整所有form都为行内元素</p><p>.navbar-btn——为导航条组件内部的按钮样式；</p><p>.navbar-text——为导航条组件内部的文本样式；</p><p>.navbar-link——在标准的导航组件之外添加标准链接，让链接有正确的颜色和反色设置；</p><p>.breadcrumb——设置列表元素显示为路径导航组件；</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;bootstrap&lt;/p&gt;
-&lt;p&gt;.navbar——设置nav元素为导航条组件；&lt;/p&gt;
-&lt;p&gt;.navbar-default——指定导航条组件为默认主题；&lt;/p&gt;
-&lt;p&gt;.navbar-inverse——指定导航条组件为黑色主题；&lt;/p&gt;
-&lt;p&gt;.navbar-fixed
       
     
     </summary>
