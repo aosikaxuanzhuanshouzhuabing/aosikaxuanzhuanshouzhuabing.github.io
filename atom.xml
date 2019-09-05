@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-05T14:42:48.703Z</updated>
+  <updated>2019-09-05T15:44:13.292Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>bootstrap之代码</title>
+    <link href="http://yoursite.com/2019/09/05/bootstrap%E4%B9%8B%E8%A1%A8%E6%A0%BC/"/>
+    <id>http://yoursite.com/2019/09/05/bootstrap之表格/</id>
+    <published>2019-09-04T16:00:00.000Z</published>
+    <updated>2019-09-05T15:44:13.292Z</updated>
+    
+    <content type="html"><![CDATA[<p> table      为表格添加基础样式。<br> thead      表格标题行的容器元素（ tr  ），用来标识表格列。<br> tbody      表格主体中的表格行的容器元素（ tr  ）。<br> tr      一组出现在单行上的表格单元格的容器元素（ td   或  th  ）。<br> td      默认的表格单元格。<br> th      特殊的表格单元格，用来标识列或行（取决于范围和位置）。必须在  thead   内使用。<br> caption      关于表格存储内容的描述或总结。</p><p>table类<br> table    为任意 <table> 添加基本样式 (只有横向分隔线)<br> table-striped    在 <tbody> 内添加斑马线形式的条纹 ( IE8 不支持)<br> table-bordered    为所有表格的单元格添加边框<br> table-hover    在 <tbody> 内的任一行启用鼠标悬停状态<br> table-condensed    让表格更加紧凑<br> table-responsive    响应式布局    </tbody></tbody></table></p><p>tr，td，th，类<br>active    将悬停的颜色应用在行或者单元格上（灰色）<br>.success    表示成功的操作    （绿色）<br>.info    表示信息变化的操作    （蓝色）<br>.warning    表示一个警告的操作    （黄色）<br>.danger    表示一个危险的操作（红色）</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt; table      为表格添加基础样式。&lt;br&gt; thead      表格标题行的容器元素（ tr  ），用来标识表格列。&lt;br&gt; tbody      表格主体中的表格行的容器元素（ tr  ）。&lt;br&gt; tr      一组出现在单行上的表格单元格的容器元素（ t
+      
+    
+    </summary>
+    
+      <category term="bootstrap" scheme="http://yoursite.com/categories/bootstrap/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>bootstrap之代码</title>
@@ -63,6 +86,29 @@
   </entry>
   
   <entry>
+    <title>bootstrap之栅格</title>
+    <link href="http://yoursite.com/2019/09/03/bootstrap%E4%B9%8B%E6%A0%85%E6%A0%BC/"/>
+    <id>http://yoursite.com/2019/09/03/bootstrap之栅格/</id>
+    <published>2019-09-02T16:00:00.000Z</published>
+    <updated>2019-09-03T15:02:36.839Z</updated>
+    
+    <content type="html"><![CDATA[<p>超小设备手机（&lt;768px）<br>网格行为    一直是水平的<br>最大容器宽度    None (auto)<br>Class 前缀    .col-xs-<br>总计：12列<br>最大列宽    Auto<br>间隙宽度    30px（一个列的每边分别 15px）<br>可嵌套    Yes<br>偏移量    Yes<br>列排序    Yes</p><p>小型设备平板电脑（≥768px）<br>网格行为    以折叠开始，断点以上是水平的<br>最大容器宽度    750px<br>Class 前缀    .col-sm-<br>总计：12列<br>最大列宽    60px<br>间隙宽度    30px（一个列的每边分别 15px）<br>可嵌套    Yes<br>偏移量    Yes<br>列排序    Yes</p><p>中型设备台式电脑（≥992px）<br>网格行为    以折叠开始，断点以上是水平的<br>最大容器宽度    970px<br>Class 前缀    .col-md-<br>总计：12列<br>最大列宽    78px<br>间隙宽度    30px（一个列的每边分别 15px）<br>可嵌套    Yes<br>偏移量    Yes<br>列排序    Yes</p><p>大型设备台式电脑（≥1200px）<br>网格行为    以折叠开始，断点以上是水平的<br>最大容器宽度    1170px<br>Class 前缀    .col-lg-<br>总计：12列<br>最大列宽    95px<br>间隙宽度    30px（一个列的每边分别 15px）<br>可嵌套    Yes<br>偏移量    Yes<br>列排序    Yes</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;超小设备手机（&amp;lt;768px）&lt;br&gt;网格行为    一直是水平的&lt;br&gt;最大容器宽度    None (auto)&lt;br&gt;Class 前缀    .col-xs-&lt;br&gt;总计：12列&lt;br&gt;最大列宽    Auto&lt;br&gt;间隙宽度    30px（一个列的每边分别 1
+      
+    
+    </summary>
+    
+      <category term="bootstrap" scheme="http://yoursite.com/categories/bootstrap/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>bootstrap之navbar</title>
     <link href="http://yoursite.com/2019/09/03/bootstrap%E4%B9%8Bnavbar/"/>
     <id>http://yoursite.com/2019/09/03/bootstrap之navbar/</id>
@@ -80,29 +126,6 @@
 &lt;p&gt;.navbar-default——指定导航条组件为默认主题；&lt;/p&gt;
 &lt;p&gt;.navbar-inverse——指定导航条组件为黑色主题；&lt;/p&gt;
 &lt;p&gt;.navbar-fixed
-      
-    
-    </summary>
-    
-      <category term="bootstrap" scheme="http://yoursite.com/categories/bootstrap/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>bootstrap之栅格</title>
-    <link href="http://yoursite.com/2019/09/03/bootstrap%E4%B9%8B%E6%A0%85%E6%A0%BC/"/>
-    <id>http://yoursite.com/2019/09/03/bootstrap之栅格/</id>
-    <published>2019-09-02T16:00:00.000Z</published>
-    <updated>2019-09-03T15:02:36.839Z</updated>
-    
-    <content type="html"><![CDATA[<p>超小设备手机（&lt;768px）<br>网格行为    一直是水平的<br>最大容器宽度    None (auto)<br>Class 前缀    .col-xs-<br>总计：12列<br>最大列宽    Auto<br>间隙宽度    30px（一个列的每边分别 15px）<br>可嵌套    Yes<br>偏移量    Yes<br>列排序    Yes</p><p>小型设备平板电脑（≥768px）<br>网格行为    以折叠开始，断点以上是水平的<br>最大容器宽度    750px<br>Class 前缀    .col-sm-<br>总计：12列<br>最大列宽    60px<br>间隙宽度    30px（一个列的每边分别 15px）<br>可嵌套    Yes<br>偏移量    Yes<br>列排序    Yes</p><p>中型设备台式电脑（≥992px）<br>网格行为    以折叠开始，断点以上是水平的<br>最大容器宽度    970px<br>Class 前缀    .col-md-<br>总计：12列<br>最大列宽    78px<br>间隙宽度    30px（一个列的每边分别 15px）<br>可嵌套    Yes<br>偏移量    Yes<br>列排序    Yes</p><p>大型设备台式电脑（≥1200px）<br>网格行为    以折叠开始，断点以上是水平的<br>最大容器宽度    1170px<br>Class 前缀    .col-lg-<br>总计：12列<br>最大列宽    95px<br>间隙宽度    30px（一个列的每边分别 15px）<br>可嵌套    Yes<br>偏移量    Yes<br>列排序    Yes</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;超小设备手机（&amp;lt;768px）&lt;br&gt;网格行为    一直是水平的&lt;br&gt;最大容器宽度    None (auto)&lt;br&gt;Class 前缀    .col-xs-&lt;br&gt;总计：12列&lt;br&gt;最大列宽    Auto&lt;br&gt;间隙宽度    30px（一个列的每边分别 1
       
     
     </summary>
