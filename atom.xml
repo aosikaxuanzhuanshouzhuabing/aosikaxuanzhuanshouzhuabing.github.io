@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-05T15:47:23.172Z</updated>
+  <updated>2019-09-08T15:04:39.175Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,19 +17,20 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>bootstrap之表格</title>
-    <link href="http://yoursite.com/2019/09/05/bootstrap%E4%B9%8B%E8%A1%A8%E6%A0%BC/"/>
-    <id>http://yoursite.com/2019/09/05/bootstrap之表格/</id>
-    <published>2019-09-04T16:00:00.000Z</published>
-    <updated>2019-09-05T15:47:23.172Z</updated>
+    <title>bootstrap之表单</title>
+    <link href="http://yoursite.com/2019/09/08/bootstrap%E4%B9%8B%E8%A1%A8%E5%8D%95/"/>
+    <id>http://yoursite.com/2019/09/08/bootstrap之表单/</id>
+    <published>2019-09-07T16:00:00.000Z</published>
+    <updated>2019-09-08T15:04:39.175Z</updated>
     
-    <content type="html"><![CDATA[<p> table      为表格添加基础样式。<br> thead      表格标题行的容器元素（ tr  ），用来标识表格列。<br> tbody      表格主体中的表格行的容器元素（ tr  ）。<br> tr      一组出现在单行上的表格单元格的容器元素（ td   或  th  ）。<br> td      默认的表格单元格。<br> th      特殊的表格单元格，用来标识列或行（取决于范围和位置）。必须在  thead   内使用。<br> caption      关于表格存储内容的描述或总结。</p><p>table类<br> table    为任意 table 添加基本样式 (只有横向分隔线)<br> table-striped    在 tbody 内添加斑马线形式的条纹 ( IE8 不支持)<br> table-bordered    为所有表格的单元格添加边框<br> table-hover    在 tbody 内的任一行启用鼠标悬停状态<br> table-condensed    让表格更加紧凑<br> table-responsive    响应式布局    </p><p>tr，td，th，类<br>active    将悬停的颜色应用在行或者单元格上（灰色）<br>.success    表示成功的操作    （绿色）<br>.info    表示信息变化的操作    （蓝色）<br>.warning    表示一个警告的操作    （黄色）<br>.danger    表示一个危险的操作（红色）</p>]]></content>
+    <content type="html"><![CDATA[<p>单label与label for区别 ：单label 只是展示，鼠标左键点击 label 中的文字的时候没有任何效果，如果添加了 for 属性，当你点击 label 中的文字的时候，光标会for 属性相应的 id 标签中</p><p>form-group ：把标签和控件放在一个带有 class .form-group 的 <div> 中。这是获取最佳间距所必需的。</div></p><p>form-control ：向所有的文本元素 <input>、<textarea> 和 </textarea><select> 添加 class =”form-control” 。</select></p><p>form-inline ：如果需要创建一个表单，它的所有元素是内联的，向左对齐的，标签是并排的，请向 <form> 标签添加 class .form-inline。</form></p><p>form-horizontal ：基于栅格类，以将 label 标签和控件组水平并排布局。这样做将改变 .form-group 的行为，使其表现为栅格系统中的行（row）</p><p>text与textarea：text标签是单行文本框，不会换行，通过size属性指定显示字符的长度，注意：当使用css限定了宽高，那么size属性就不再起作用。value属性指定初始值，Maxlength属性指定文本框可以输入的最长长度。<br>可以通过width和height设置宽高，但是也不会增加行数。<textarea>是多行文本输入框，文本区中可容纳无限数量的文本，其中的文本的默认字体是等宽字体（通常是 Courier），可以通过 cols 和 rows 属性来规定 textarea 的尺寸，不过更好的办法是使用 CSS 的 height 和 width 属性。</textarea></p><p>placeholder=”” ：默认内容</p><p>type=”file” ：文件选择</p><p>class=”sr-only” ：这是专门为残障人士浏览网页设计的，</p><p>multiple=”multiple”  ：允许用户选择多个选项。</p><p>form-control-static ： 当需要在一个水平表单内的表单标签后放置纯文本时</p><p>disabled ： 如果您想要禁用一个输入框 input，只需要简单地添加 disabled 属性，这不仅会禁用输入框，还会改变输入框的样式以及当鼠标的指针悬停在元素上时鼠标指针的样式。</p><p>has-success：绿色边框<br>has-warning：棕色边框<br>has-error ：红色边框</p><p>help-block： 为了添加一个占用整个宽度的内容块</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt; table      为表格添加基础样式。&lt;br&gt; thead      表格标题行的容器元素（ tr  ），用来标识表格列。&lt;br&gt; tbody      表格主体中的表格行的容器元素（ tr  ）。&lt;br&gt; tr      一组出现在单行上的表格单元格的容器元素（ t
+        &lt;p&gt;单label与label for区别 ：单label 只是展示，鼠标左键点击 label 中的文字的时候没有任何效果，如果添加了 for 属性，当你点击 label 中的文字的时候，光标会for 属性相应的 id 标签中&lt;/p&gt;
+&lt;p&gt;form-group ：把标签和控件放
       
     
     </summary>
@@ -63,23 +64,19 @@
   </entry>
   
   <entry>
-    <title>bootstrap之navbar</title>
-    <link href="http://yoursite.com/2019/09/03/bootstrap%E4%B9%8Bnavbar/"/>
-    <id>http://yoursite.com/2019/09/03/bootstrap之navbar/</id>
-    <published>2019-09-02T16:00:00.000Z</published>
-    <updated>2019-09-03T09:45:52.595Z</updated>
+    <title>bootstrap之表格</title>
+    <link href="http://yoursite.com/2019/09/05/bootstrap%E4%B9%8B%E8%A1%A8%E6%A0%BC/"/>
+    <id>http://yoursite.com/2019/09/05/bootstrap之表格/</id>
+    <published>2019-09-04T16:00:00.000Z</published>
+    <updated>2019-09-05T15:47:23.172Z</updated>
     
-    <content type="html"><![CDATA[<p>bootstrap</p><p>.navbar——设置nav元素为导航条组件；</p><p>.navbar-default——指定导航条组件为默认主题；</p><p>.navbar-inverse——指定导航条组件为黑色主题；</p><p>.navbar-fixed-top——设置导航条组件固定在顶部；</p><p>.navbar-fixed-bottom——设置导航条组件固定在底部；</p><p>.container-fluid——设置宽度充满父元素，即为100%；</p><p>.navbar-header——主要指定div元素为导航条组件包裹品牌图标及切换按钮；</p><p>.navbar-toggle——设置button元素为导航条组件的切换钮；</p><p>.collapsed——设置button元素为在视口小于768px时才显示；</p><p>.navbar-brand——设置导航条组件内的品牌图标；</p><p>navbar-brand默认是放文字的,也可以放图片，但必须是小图片,如果图片太大，位置就会靠下.</p><p>.navbar-nav——设置ul为导航条组件内的列表元素;</p><p>.navbar-left——设置导航条内元素向左对齐；</p><p>.navbar-right——设置导航条内元素向右对齐；</p><p>.navbar-form——为导航条组件内部的表单组件；</p><p>navbar-form：主要调整所有form都为行内元素</p><p>.navbar-btn——为导航条组件内部的按钮样式；</p><p>.navbar-text——为导航条组件内部的文本样式；</p><p>.navbar-link——在标准的导航组件之外添加标准链接，让链接有正确的颜色和反色设置；</p><p>.breadcrumb——设置列表元素显示为路径导航组件；</p>]]></content>
+    <content type="html"><![CDATA[<p> table      为表格添加基础样式。<br> thead      表格标题行的容器元素（ tr  ），用来标识表格列。<br> tbody      表格主体中的表格行的容器元素（ tr  ）。<br> tr      一组出现在单行上的表格单元格的容器元素（ td   或  th  ）。<br> td      默认的表格单元格。<br> th      特殊的表格单元格，用来标识列或行（取决于范围和位置）。必须在  thead   内使用。<br> caption      关于表格存储内容的描述或总结。</p><p>table类<br> table    为任意 table 添加基本样式 (只有横向分隔线)<br> table-striped    在 tbody 内添加斑马线形式的条纹 ( IE8 不支持)<br> table-bordered    为所有表格的单元格添加边框<br> table-hover    在 tbody 内的任一行启用鼠标悬停状态<br> table-condensed    让表格更加紧凑<br> table-responsive    响应式布局    </p><p>tr，td，th，类<br>active    将悬停的颜色应用在行或者单元格上（灰色）<br>.success    表示成功的操作    （绿色）<br>.info    表示信息变化的操作    （蓝色）<br>.warning    表示一个警告的操作    （黄色）<br>.danger    表示一个危险的操作（红色）</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;bootstrap&lt;/p&gt;
-&lt;p&gt;.navbar——设置nav元素为导航条组件；&lt;/p&gt;
-&lt;p&gt;.navbar-default——指定导航条组件为默认主题；&lt;/p&gt;
-&lt;p&gt;.navbar-inverse——指定导航条组件为黑色主题；&lt;/p&gt;
-&lt;p&gt;.navbar-fixed
+        &lt;p&gt; table      为表格添加基础样式。&lt;br&gt; thead      表格标题行的容器元素（ tr  ），用来标识表格列。&lt;br&gt; tbody      表格主体中的表格行的容器元素（ tr  ）。&lt;br&gt; tr      一组出现在单行上的表格单元格的容器元素（ t
       
     
     </summary>
@@ -126,6 +123,33 @@
       
       
         &lt;p&gt;超小设备手机（&amp;lt;768px）&lt;br&gt;网格行为    一直是水平的&lt;br&gt;最大容器宽度    None (auto)&lt;br&gt;Class 前缀    .col-xs-&lt;br&gt;总计：12列&lt;br&gt;最大列宽    Auto&lt;br&gt;间隙宽度    30px（一个列的每边分别 1
+      
+    
+    </summary>
+    
+      <category term="bootstrap" scheme="http://yoursite.com/categories/bootstrap/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>bootstrap之navbar</title>
+    <link href="http://yoursite.com/2019/09/03/bootstrap%E4%B9%8Bnavbar/"/>
+    <id>http://yoursite.com/2019/09/03/bootstrap之navbar/</id>
+    <published>2019-09-02T16:00:00.000Z</published>
+    <updated>2019-09-03T09:45:52.595Z</updated>
+    
+    <content type="html"><![CDATA[<p>bootstrap</p><p>.navbar——设置nav元素为导航条组件；</p><p>.navbar-default——指定导航条组件为默认主题；</p><p>.navbar-inverse——指定导航条组件为黑色主题；</p><p>.navbar-fixed-top——设置导航条组件固定在顶部；</p><p>.navbar-fixed-bottom——设置导航条组件固定在底部；</p><p>.container-fluid——设置宽度充满父元素，即为100%；</p><p>.navbar-header——主要指定div元素为导航条组件包裹品牌图标及切换按钮；</p><p>.navbar-toggle——设置button元素为导航条组件的切换钮；</p><p>.collapsed——设置button元素为在视口小于768px时才显示；</p><p>.navbar-brand——设置导航条组件内的品牌图标；</p><p>navbar-brand默认是放文字的,也可以放图片，但必须是小图片,如果图片太大，位置就会靠下.</p><p>.navbar-nav——设置ul为导航条组件内的列表元素;</p><p>.navbar-left——设置导航条内元素向左对齐；</p><p>.navbar-right——设置导航条内元素向右对齐；</p><p>.navbar-form——为导航条组件内部的表单组件；</p><p>navbar-form：主要调整所有form都为行内元素</p><p>.navbar-btn——为导航条组件内部的按钮样式；</p><p>.navbar-text——为导航条组件内部的文本样式；</p><p>.navbar-link——在标准的导航组件之外添加标准链接，让链接有正确的颜色和反色设置；</p><p>.breadcrumb——设置列表元素显示为路径导航组件；</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;bootstrap&lt;/p&gt;
+&lt;p&gt;.navbar——设置nav元素为导航条组件；&lt;/p&gt;
+&lt;p&gt;.navbar-default——指定导航条组件为默认主题；&lt;/p&gt;
+&lt;p&gt;.navbar-inverse——指定导航条组件为黑色主题；&lt;/p&gt;
+&lt;p&gt;.navbar-fixed
       
     
     </summary>
