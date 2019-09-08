@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-08T15:04:39.175Z</updated>
+  <updated>2019-09-08T15:07:53.755Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2019/09/08/bootstrap%E4%B9%8B%E8%A1%A8%E5%8D%95/"/>
     <id>http://yoursite.com/2019/09/08/bootstrap之表单/</id>
     <published>2019-09-07T16:00:00.000Z</published>
-    <updated>2019-09-08T15:04:39.175Z</updated>
+    <updated>2019-09-08T15:07:53.755Z</updated>
     
-    <content type="html"><![CDATA[<p>单label与label for区别 ：单label 只是展示，鼠标左键点击 label 中的文字的时候没有任何效果，如果添加了 for 属性，当你点击 label 中的文字的时候，光标会for 属性相应的 id 标签中</p><p>form-group ：把标签和控件放在一个带有 class .form-group 的 <div> 中。这是获取最佳间距所必需的。</div></p><p>form-control ：向所有的文本元素 <input>、<textarea> 和 </textarea><select> 添加 class =”form-control” 。</select></p><p>form-inline ：如果需要创建一个表单，它的所有元素是内联的，向左对齐的，标签是并排的，请向 <form> 标签添加 class .form-inline。</form></p><p>form-horizontal ：基于栅格类，以将 label 标签和控件组水平并排布局。这样做将改变 .form-group 的行为，使其表现为栅格系统中的行（row）</p><p>text与textarea：text标签是单行文本框，不会换行，通过size属性指定显示字符的长度，注意：当使用css限定了宽高，那么size属性就不再起作用。value属性指定初始值，Maxlength属性指定文本框可以输入的最长长度。<br>可以通过width和height设置宽高，但是也不会增加行数。<textarea>是多行文本输入框，文本区中可容纳无限数量的文本，其中的文本的默认字体是等宽字体（通常是 Courier），可以通过 cols 和 rows 属性来规定 textarea 的尺寸，不过更好的办法是使用 CSS 的 height 和 width 属性。</textarea></p><p>placeholder=”” ：默认内容</p><p>type=”file” ：文件选择</p><p>class=”sr-only” ：这是专门为残障人士浏览网页设计的，</p><p>multiple=”multiple”  ：允许用户选择多个选项。</p><p>form-control-static ： 当需要在一个水平表单内的表单标签后放置纯文本时</p><p>disabled ： 如果您想要禁用一个输入框 input，只需要简单地添加 disabled 属性，这不仅会禁用输入框，还会改变输入框的样式以及当鼠标的指针悬停在元素上时鼠标指针的样式。</p><p>has-success：绿色边框<br>has-warning：棕色边框<br>has-error ：红色边框</p><p>help-block： 为了添加一个占用整个宽度的内容块</p>]]></content>
+    <content type="html"><![CDATA[<p>单label与label for区别 ：单label 只是展示，鼠标左键点击 label 中的文字的时候没有任何效果，如果添加了 for 属性，当你点击 label 中的文字的时候，光标会for 属性相应的 id 标签中</p><p>form-group ：把标签和控件放在一个带有 class .form-group 的 div 中。这是获取最佳间距所必需的。</p><p>form-control ：向所有的文本元素 input、textarea 和 select 添加 class =”form-control” 。</p><p>form-inline ：如果需要创建一个表单，它的所有元素是内联的，向左对齐的，标签是并排的，请向     form      标签添加 class .form-inline。</p><p>form-horizontal ：基于栅格类，以将 label 标签和控件组水平并排布局。这样做将改变 .form-group 的行为，使其表现为栅格系统中的行（row）</p><p>text与textarea：text标签是单行文本框，不会换行，通过size属性指定显示字符的长度，注意：当使用css限定了宽高，那么size属性就不再起作用。value属性指定初始值，Maxlength属性指定文本框可以输入的最长长度。<br>可以通过width和height设置宽高，但是也不会增加行数。    textarea     是多行文本输入框，文本区中可容纳无限数量的文本，其中的文本的默认字体是等宽字体（通常是 Courier），可以通过 cols 和 rows 属性来规定 textarea 的尺寸，不过更好的办法是使用 CSS 的 height 和 width 属性。</p><p>placeholder=”” ：默认内容</p><p>type=”file” ：文件选择</p><p>class=”sr-only” ：这是专门为残障人士浏览网页设计的，</p><p>multiple=”multiple”  ：允许用户选择多个选项。</p><p>form-control-static ： 当需要在一个水平表单内的表单标签后放置纯文本时</p><p>disabled ： 如果您想要禁用一个输入框 input，只需要简单地添加 disabled 属性，这不仅会禁用输入框，还会改变输入框的样式以及当鼠标的指针悬停在元素上时鼠标指针的样式。</p><p>has-success：绿色边框<br>has-warning：棕色边框<br>has-error ：红色边框</p><p>help-block： 为了添加一个占用整个宽度的内容块</p>]]></content>
     
     <summary type="html">
     
