@@ -44,16 +44,16 @@
     <link href="http://yoursite.com/2019/09/09/bootstrap%E4%B9%8B%E6%8C%89%E9%92%AE%E7%BB%84/"/>
     <id>http://yoursite.com/2019/09/09/bootstrap之按钮组/</id>
     <published>2019-09-08T16:00:00.000Z</published>
-    <updated>2019-09-09T15:52:22.925Z</updated>
+    <updated>2019-09-09T15:54:38.583Z</updated>
     
-    <content type="html"><![CDATA[<p>.btn-group : 该 class 用于形成基本的按钮组。在 .btn-group 中放置一系列带有 class .btn 的按钮。    </p><p>.btn-toolbar : 该 class 有助于把几组 <div class="btn-group"> 结合到一个 <div class="btn-toolbar"> 中，一般获得更复杂的组件。    </div></div></p><p>.btn-group-lg, .btn-group-sm, .btn-group-xs :这些 class 可应用到整个按钮组的大小调整，而不需要对每个按钮进行大小调整。    </p><p>.btn-group-vertical : 该 class 让一组按钮垂直堆叠显示，而不是水平堆叠显示。</p>]]></content>
+    <content type="html"><![CDATA[<p>.btn-group : 该 class 用于形成基本的按钮组。在 .btn-group 中放置一系列带有 class .btn 的按钮。    </p><p>.btn-toolbar : 该 class 有助于把几组 div class=”btn-group” 结合到一个 div class=”btn-toolbar” 中，一般获得更复杂的组件。    </p><p>.btn-group-lg, .btn-group-sm, .btn-group-xs :这些 class 可应用到整个按钮组的大小调整，而不需要对每个按钮进行大小调整。    </p><p>.btn-group-vertical : 该 class 让一组按钮垂直堆叠显示，而不是水平堆叠显示。</p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;.btn-group : 该 class 用于形成基本的按钮组。在 .btn-group 中放置一系列带有 class .btn 的按钮。    &lt;/p&gt;
-&lt;p&gt;.btn-toolbar : 该 class 有助于把几组 &lt;div class=&quot;btn-group&quot;&gt; 结合
+&lt;p&gt;.btn-toolbar : 该 class 有助于把几组 div class=”btn-group” 结合到一
       
     
     </summary>
