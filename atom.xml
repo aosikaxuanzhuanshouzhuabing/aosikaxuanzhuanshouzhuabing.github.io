@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-09T15:01:32.416Z</updated>
+  <updated>2019-09-09T15:51:38.968Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>bootstrap之按钮组</title>
+    <link href="http://yoursite.com/2019/09/09/bootstrap%E4%B9%8B%E6%8C%89%E9%92%AE%E7%BB%84/"/>
+    <id>http://yoursite.com/2019/09/09/bootstrap之按钮组/</id>
+    <published>2019-09-09T15:47:46.000Z</published>
+    <updated>2019-09-09T15:51:38.968Z</updated>
+    
+    <content type="html"><![CDATA[<p>.btn-group : 该 class 用于形成基本的按钮组。在 .btn-group 中放置一系列带有 class .btn 的按钮。    </p><p>.btn-toolbar : 该 class 有助于把几组 <div class="btn-group"> 结合到一个 <div class="btn-toolbar"> 中，一般获得更复杂的组件。    </div></div></p><p>.btn-group-lg, .btn-group-sm, .btn-group-xs :这些 class 可应用到整个按钮组的大小调整，而不需要对每个按钮进行大小调整。    </p><p>.btn-group-vertical : 该 class 让一组按钮垂直堆叠显示，而不是水平堆叠显示。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;.btn-group : 该 class 用于形成基本的按钮组。在 .btn-group 中放置一系列带有 class .btn 的按钮。    &lt;/p&gt;
+&lt;p&gt;.btn-toolbar : 该 class 有助于把几组 &lt;div class=&quot;btn-group&quot;&gt; 结合
+      
+    
+    </summary>
+    
+      <category term="bootstrap" scheme="http://yoursite.com/categories/bootstrap/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>bootstrap之下拉菜单</title>
@@ -87,29 +111,6 @@
   </entry>
   
   <entry>
-    <title>bootstrap之表格</title>
-    <link href="http://yoursite.com/2019/09/05/bootstrap%E4%B9%8B%E8%A1%A8%E6%A0%BC/"/>
-    <id>http://yoursite.com/2019/09/05/bootstrap之表格/</id>
-    <published>2019-09-04T16:00:00.000Z</published>
-    <updated>2019-09-05T15:47:23.172Z</updated>
-    
-    <content type="html"><![CDATA[<p> table      为表格添加基础样式。<br> thead      表格标题行的容器元素（ tr  ），用来标识表格列。<br> tbody      表格主体中的表格行的容器元素（ tr  ）。<br> tr      一组出现在单行上的表格单元格的容器元素（ td   或  th  ）。<br> td      默认的表格单元格。<br> th      特殊的表格单元格，用来标识列或行（取决于范围和位置）。必须在  thead   内使用。<br> caption      关于表格存储内容的描述或总结。</p><p>table类<br> table    为任意 table 添加基本样式 (只有横向分隔线)<br> table-striped    在 tbody 内添加斑马线形式的条纹 ( IE8 不支持)<br> table-bordered    为所有表格的单元格添加边框<br> table-hover    在 tbody 内的任一行启用鼠标悬停状态<br> table-condensed    让表格更加紧凑<br> table-responsive    响应式布局    </p><p>tr，td，th，类<br>active    将悬停的颜色应用在行或者单元格上（灰色）<br>.success    表示成功的操作    （绿色）<br>.info    表示信息变化的操作    （蓝色）<br>.warning    表示一个警告的操作    （黄色）<br>.danger    表示一个危险的操作（红色）</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt; table      为表格添加基础样式。&lt;br&gt; thead      表格标题行的容器元素（ tr  ），用来标识表格列。&lt;br&gt; tbody      表格主体中的表格行的容器元素（ tr  ）。&lt;br&gt; tr      一组出现在单行上的表格单元格的容器元素（ t
-      
-    
-    </summary>
-    
-      <category term="bootstrap" scheme="http://yoursite.com/categories/bootstrap/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>bootstrap之代码</title>
     <link href="http://yoursite.com/2019/09/05/bootstrap%E4%B9%8B%E4%BB%A3%E7%A0%81/"/>
     <id>http://yoursite.com/2019/09/05/bootstrap之代码/</id>
@@ -123,6 +124,29 @@
       
       
         &lt;p&gt;var：描述变量，使变量略微倾斜&lt;br&gt;kbd：表示按键输入&lt;br&gt;pre：显示出的效果与源码一致，可换行，可显示空格&lt;br&gt;pre class=”pre-scrollable” :使多行代码带有滚动条&lt;br&gt;samp：表示电脑输入&lt;br&gt;code：表示代码片段（背景变红）
+      
+    
+    </summary>
+    
+      <category term="bootstrap" scheme="http://yoursite.com/categories/bootstrap/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>bootstrap之表格</title>
+    <link href="http://yoursite.com/2019/09/05/bootstrap%E4%B9%8B%E8%A1%A8%E6%A0%BC/"/>
+    <id>http://yoursite.com/2019/09/05/bootstrap之表格/</id>
+    <published>2019-09-04T16:00:00.000Z</published>
+    <updated>2019-09-05T15:47:23.172Z</updated>
+    
+    <content type="html"><![CDATA[<p> table      为表格添加基础样式。<br> thead      表格标题行的容器元素（ tr  ），用来标识表格列。<br> tbody      表格主体中的表格行的容器元素（ tr  ）。<br> tr      一组出现在单行上的表格单元格的容器元素（ td   或  th  ）。<br> td      默认的表格单元格。<br> th      特殊的表格单元格，用来标识列或行（取决于范围和位置）。必须在  thead   内使用。<br> caption      关于表格存储内容的描述或总结。</p><p>table类<br> table    为任意 table 添加基本样式 (只有横向分隔线)<br> table-striped    在 tbody 内添加斑马线形式的条纹 ( IE8 不支持)<br> table-bordered    为所有表格的单元格添加边框<br> table-hover    在 tbody 内的任一行启用鼠标悬停状态<br> table-condensed    让表格更加紧凑<br> table-responsive    响应式布局    </p><p>tr，td，th，类<br>active    将悬停的颜色应用在行或者单元格上（灰色）<br>.success    表示成功的操作    （绿色）<br>.info    表示信息变化的操作    （蓝色）<br>.warning    表示一个警告的操作    （黄色）<br>.danger    表示一个危险的操作（红色）</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt; table      为表格添加基础样式。&lt;br&gt; thead      表格标题行的容器元素（ tr  ），用来标识表格列。&lt;br&gt; tbody      表格主体中的表格行的容器元素（ tr  ）。&lt;br&gt; tr      一组出现在单行上的表格单元格的容器元素（ t
       
     
     </summary>
