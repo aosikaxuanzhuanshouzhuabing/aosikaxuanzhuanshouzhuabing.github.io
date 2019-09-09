@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-09T05:25:36.777Z</updated>
+  <updated>2019-09-09T15:01:32.416Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>bootstrap之下拉菜单</title>
+    <link href="http://yoursite.com/2019/09/09/bootstrap%E4%B9%8B%E4%B8%8B%E6%8B%89%E8%8F%9C%E5%8D%95/"/>
+    <id>http://yoursite.com/2019/09/09/bootstrap之下拉菜单/</id>
+    <published>2019-09-09T14:46:38.000Z</published>
+    <updated>2019-09-09T15:01:32.416Z</updated>
+    
+    <content type="html"><![CDATA[<p>.dropdown    指定下拉菜单，下拉菜单都包裹在 .dropdown 里<br>.dropdown-menu    创建下拉菜单<br>.dropdown-menu-right    下拉菜单右对齐<br>.dropdown-header    下拉菜单中添加标题<br>.dropup    指定向上弹出的下拉菜单<br>.disabled    下拉菜单中的禁用项<br>.divider    下拉菜单中的分割线</p><p>class=”dropdown-toggle” : 使按钮变宽，同时四周变为圆角</p><p>data-toggle ：指以什么事件触发</p><p>data-target ：指事件的目标</p><p>aria-label：属性用来给当前元素加上的标签描述，接受字符串作为参数。<br>aria-labelledby：当想要的标签文本已在其他元素中存在时，可以使用</p><p>dropdown-menu-right ：使菜单右对齐</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;.dropdown    指定下拉菜单，下拉菜单都包裹在 .dropdown 里&lt;br&gt;.dropdown-menu    创建下拉菜单&lt;br&gt;.dropdown-menu-right    下拉菜单右对齐&lt;br&gt;.dropdown-header    下拉菜单中添加标题&lt;
+      
+    
+    </summary>
+    
+      <category term="bootstrap" scheme="http://yoursite.com/categories/bootstrap/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>bootstrap之按钮与图片</title>
@@ -64,29 +87,6 @@
   </entry>
   
   <entry>
-    <title>bootstrap之代码</title>
-    <link href="http://yoursite.com/2019/09/05/bootstrap%E4%B9%8B%E4%BB%A3%E7%A0%81/"/>
-    <id>http://yoursite.com/2019/09/05/bootstrap之代码/</id>
-    <published>2019-09-04T16:00:00.000Z</published>
-    <updated>2019-09-05T15:49:33.338Z</updated>
-    
-    <content type="html"><![CDATA[<p>var：描述变量，使变量略微倾斜<br>kbd：表示按键输入<br>pre：显示出的效果与源码一致，可换行，可显示空格<br>pre class=”pre-scrollable” :使多行代码带有滚动条<br>samp：表示电脑输入<br>code：表示代码片段（背景变红）<br>&amp; lt;  与  &amp; gt；    ：表示  &lt;   与   &gt;</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;var：描述变量，使变量略微倾斜&lt;br&gt;kbd：表示按键输入&lt;br&gt;pre：显示出的效果与源码一致，可换行，可显示空格&lt;br&gt;pre class=”pre-scrollable” :使多行代码带有滚动条&lt;br&gt;samp：表示电脑输入&lt;br&gt;code：表示代码片段（背景变红）
-      
-    
-    </summary>
-    
-      <category term="bootstrap" scheme="http://yoursite.com/categories/bootstrap/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>bootstrap之表格</title>
     <link href="http://yoursite.com/2019/09/05/bootstrap%E4%B9%8B%E8%A1%A8%E6%A0%BC/"/>
     <id>http://yoursite.com/2019/09/05/bootstrap之表格/</id>
@@ -110,19 +110,42 @@
   </entry>
   
   <entry>
-    <title>bootstrap之栅格</title>
-    <link href="http://yoursite.com/2019/09/03/bootstrap%E4%B9%8B%E6%A0%85%E6%A0%BC/"/>
-    <id>http://yoursite.com/2019/09/03/bootstrap之栅格/</id>
-    <published>2019-09-02T16:00:00.000Z</published>
-    <updated>2019-09-03T15:02:36.839Z</updated>
+    <title>bootstrap之代码</title>
+    <link href="http://yoursite.com/2019/09/05/bootstrap%E4%B9%8B%E4%BB%A3%E7%A0%81/"/>
+    <id>http://yoursite.com/2019/09/05/bootstrap之代码/</id>
+    <published>2019-09-04T16:00:00.000Z</published>
+    <updated>2019-09-05T15:49:33.338Z</updated>
     
-    <content type="html"><![CDATA[<p>超小设备手机（&lt;768px）<br>网格行为    一直是水平的<br>最大容器宽度    None (auto)<br>Class 前缀    .col-xs-<br>总计：12列<br>最大列宽    Auto<br>间隙宽度    30px（一个列的每边分别 15px）<br>可嵌套    Yes<br>偏移量    Yes<br>列排序    Yes</p><p>小型设备平板电脑（≥768px）<br>网格行为    以折叠开始，断点以上是水平的<br>最大容器宽度    750px<br>Class 前缀    .col-sm-<br>总计：12列<br>最大列宽    60px<br>间隙宽度    30px（一个列的每边分别 15px）<br>可嵌套    Yes<br>偏移量    Yes<br>列排序    Yes</p><p>中型设备台式电脑（≥992px）<br>网格行为    以折叠开始，断点以上是水平的<br>最大容器宽度    970px<br>Class 前缀    .col-md-<br>总计：12列<br>最大列宽    78px<br>间隙宽度    30px（一个列的每边分别 15px）<br>可嵌套    Yes<br>偏移量    Yes<br>列排序    Yes</p><p>大型设备台式电脑（≥1200px）<br>网格行为    以折叠开始，断点以上是水平的<br>最大容器宽度    1170px<br>Class 前缀    .col-lg-<br>总计：12列<br>最大列宽    95px<br>间隙宽度    30px（一个列的每边分别 15px）<br>可嵌套    Yes<br>偏移量    Yes<br>列排序    Yes</p>]]></content>
+    <content type="html"><![CDATA[<p>var：描述变量，使变量略微倾斜<br>kbd：表示按键输入<br>pre：显示出的效果与源码一致，可换行，可显示空格<br>pre class=”pre-scrollable” :使多行代码带有滚动条<br>samp：表示电脑输入<br>code：表示代码片段（背景变红）<br>&amp; lt;  与  &amp; gt；    ：表示  &lt;   与   &gt;</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;超小设备手机（&amp;lt;768px）&lt;br&gt;网格行为    一直是水平的&lt;br&gt;最大容器宽度    None (auto)&lt;br&gt;Class 前缀    .col-xs-&lt;br&gt;总计：12列&lt;br&gt;最大列宽    Auto&lt;br&gt;间隙宽度    30px（一个列的每边分别 1
+        &lt;p&gt;var：描述变量，使变量略微倾斜&lt;br&gt;kbd：表示按键输入&lt;br&gt;pre：显示出的效果与源码一致，可换行，可显示空格&lt;br&gt;pre class=”pre-scrollable” :使多行代码带有滚动条&lt;br&gt;samp：表示电脑输入&lt;br&gt;code：表示代码片段（背景变红）
+      
+    
+    </summary>
+    
+      <category term="bootstrap" scheme="http://yoursite.com/categories/bootstrap/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>bootstrap之排版</title>
+    <link href="http://yoursite.com/2019/09/03/bootstrap%E4%B9%8B%E6%8E%92%E7%89%88/"/>
+    <id>http://yoursite.com/2019/09/03/bootstrap之排版/</id>
+    <published>2019-09-02T16:00:00.000Z</published>
+    <updated>2019-09-03T14:55:32.707Z</updated>
+    
+    <content type="html"><![CDATA[<p>lead    使段落突出显示<br>.small    设定小文本 (设置为父文本的 85% 大小)<br>.text-left    设定文本左对齐<br>.text-center    设定文本居中对齐<br>.text-right    设定文本右对齐<br>.text-justify    设定文本对齐,段落中超出屏幕部分文字自动换行<br>.text-nowrap    段落中超出屏幕部分不换行<br>.text-lowercase    设定文本小写<br>.text-uppercase    设定文本大写<br>.text-capitalize    设定单词首字母大写<br>.initialism    显示在 abbr 元素中的文本以小号字体展示，且可以将小写字母转换为大写字母<br>.blockquote-reverse    设定引用右对齐<br>.list-unstyled    移除默认的列表样式，列表项中左对齐 ( ul 和 ol 中)。 这个类仅适用于直接子列表项 (如果需要移除嵌套的列表项，你需要在嵌套的列表中使用该样式)<br>.list-inline    将所有列表项放置同一行<br>.dl-horizontal    该类设置了浮动和偏移，应用于 dl 元素和 dt 元素中，具体实现可以查看实例<br>.pre-scrollable    使 pre 元素可滚动，代码块区域最大高度为340px,一旦超出这个高度,就会在Y轴出现滚动条</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;lead    使段落突出显示&lt;br&gt;.small    设定小文本 (设置为父文本的 85% 大小)&lt;br&gt;.text-left    设定文本左对齐&lt;br&gt;.text-center    设定文本居中对齐&lt;br&gt;.text-right    设定文本右对齐&lt;br&gt;.te
       
     
     </summary>
@@ -160,19 +183,19 @@
   </entry>
   
   <entry>
-    <title>bootstrap之排版</title>
-    <link href="http://yoursite.com/2019/09/03/bootstrap%E4%B9%8B%E6%8E%92%E7%89%88/"/>
-    <id>http://yoursite.com/2019/09/03/bootstrap之排版/</id>
+    <title>bootstrap之栅格</title>
+    <link href="http://yoursite.com/2019/09/03/bootstrap%E4%B9%8B%E6%A0%85%E6%A0%BC/"/>
+    <id>http://yoursite.com/2019/09/03/bootstrap之栅格/</id>
     <published>2019-09-02T16:00:00.000Z</published>
-    <updated>2019-09-03T14:55:32.707Z</updated>
+    <updated>2019-09-03T15:02:36.839Z</updated>
     
-    <content type="html"><![CDATA[<p>lead    使段落突出显示<br>.small    设定小文本 (设置为父文本的 85% 大小)<br>.text-left    设定文本左对齐<br>.text-center    设定文本居中对齐<br>.text-right    设定文本右对齐<br>.text-justify    设定文本对齐,段落中超出屏幕部分文字自动换行<br>.text-nowrap    段落中超出屏幕部分不换行<br>.text-lowercase    设定文本小写<br>.text-uppercase    设定文本大写<br>.text-capitalize    设定单词首字母大写<br>.initialism    显示在 abbr 元素中的文本以小号字体展示，且可以将小写字母转换为大写字母<br>.blockquote-reverse    设定引用右对齐<br>.list-unstyled    移除默认的列表样式，列表项中左对齐 ( ul 和 ol 中)。 这个类仅适用于直接子列表项 (如果需要移除嵌套的列表项，你需要在嵌套的列表中使用该样式)<br>.list-inline    将所有列表项放置同一行<br>.dl-horizontal    该类设置了浮动和偏移，应用于 dl 元素和 dt 元素中，具体实现可以查看实例<br>.pre-scrollable    使 pre 元素可滚动，代码块区域最大高度为340px,一旦超出这个高度,就会在Y轴出现滚动条</p>]]></content>
+    <content type="html"><![CDATA[<p>超小设备手机（&lt;768px）<br>网格行为    一直是水平的<br>最大容器宽度    None (auto)<br>Class 前缀    .col-xs-<br>总计：12列<br>最大列宽    Auto<br>间隙宽度    30px（一个列的每边分别 15px）<br>可嵌套    Yes<br>偏移量    Yes<br>列排序    Yes</p><p>小型设备平板电脑（≥768px）<br>网格行为    以折叠开始，断点以上是水平的<br>最大容器宽度    750px<br>Class 前缀    .col-sm-<br>总计：12列<br>最大列宽    60px<br>间隙宽度    30px（一个列的每边分别 15px）<br>可嵌套    Yes<br>偏移量    Yes<br>列排序    Yes</p><p>中型设备台式电脑（≥992px）<br>网格行为    以折叠开始，断点以上是水平的<br>最大容器宽度    970px<br>Class 前缀    .col-md-<br>总计：12列<br>最大列宽    78px<br>间隙宽度    30px（一个列的每边分别 15px）<br>可嵌套    Yes<br>偏移量    Yes<br>列排序    Yes</p><p>大型设备台式电脑（≥1200px）<br>网格行为    以折叠开始，断点以上是水平的<br>最大容器宽度    1170px<br>Class 前缀    .col-lg-<br>总计：12列<br>最大列宽    95px<br>间隙宽度    30px（一个列的每边分别 15px）<br>可嵌套    Yes<br>偏移量    Yes<br>列排序    Yes</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;lead    使段落突出显示&lt;br&gt;.small    设定小文本 (设置为父文本的 85% 大小)&lt;br&gt;.text-left    设定文本左对齐&lt;br&gt;.text-center    设定文本居中对齐&lt;br&gt;.text-right    设定文本右对齐&lt;br&gt;.te
+        &lt;p&gt;超小设备手机（&amp;lt;768px）&lt;br&gt;网格行为    一直是水平的&lt;br&gt;最大容器宽度    None (auto)&lt;br&gt;Class 前缀    .col-xs-&lt;br&gt;总计：12列&lt;br&gt;最大列宽    Auto&lt;br&gt;间隙宽度    30px（一个列的每边分别 1
       
     
     </summary>
