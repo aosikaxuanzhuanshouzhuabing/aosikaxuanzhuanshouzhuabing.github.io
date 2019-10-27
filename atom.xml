@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-10T15:31:31.792Z</updated>
+  <updated>2019-10-27T16:38:15.035Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,49 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://yoursite.com/2019/10/28/test/"/>
+    <id>http://yoursite.com/2019/10/28/test/</id>
+    <published>2019-10-27T16:37:50.000Z</published>
+    <updated>2019-10-27T16:38:15.035Z</updated>
+    
+    <content type="html"><![CDATA[<p>����һ����װ��Ĳ���</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;����һ����װ��Ĳ���&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/10/28/hello-world/"/>
+    <id>http://yoursite.com/2019/10/28/hello-world/</id>
+    <published>2019-10-27T16:32:06.978Z</published>
+    <updated>2019-05-30T06:23:50.337Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>bootstrap之导航</title>
@@ -137,29 +180,6 @@
   </entry>
   
   <entry>
-    <title>bootstrap之表格</title>
-    <link href="http://yoursite.com/2019/09/05/bootstrap%E4%B9%8B%E8%A1%A8%E6%A0%BC/"/>
-    <id>http://yoursite.com/2019/09/05/bootstrap之表格/</id>
-    <published>2019-09-04T16:00:00.000Z</published>
-    <updated>2019-09-05T15:47:23.172Z</updated>
-    
-    <content type="html"><![CDATA[<p> table      为表格添加基础样式。<br> thead      表格标题行的容器元素（ tr  ），用来标识表格列。<br> tbody      表格主体中的表格行的容器元素（ tr  ）。<br> tr      一组出现在单行上的表格单元格的容器元素（ td   或  th  ）。<br> td      默认的表格单元格。<br> th      特殊的表格单元格，用来标识列或行（取决于范围和位置）。必须在  thead   内使用。<br> caption      关于表格存储内容的描述或总结。</p><p>table类<br> table    为任意 table 添加基本样式 (只有横向分隔线)<br> table-striped    在 tbody 内添加斑马线形式的条纹 ( IE8 不支持)<br> table-bordered    为所有表格的单元格添加边框<br> table-hover    在 tbody 内的任一行启用鼠标悬停状态<br> table-condensed    让表格更加紧凑<br> table-responsive    响应式布局    </p><p>tr，td，th，类<br>active    将悬停的颜色应用在行或者单元格上（灰色）<br>.success    表示成功的操作    （绿色）<br>.info    表示信息变化的操作    （蓝色）<br>.warning    表示一个警告的操作    （黄色）<br>.danger    表示一个危险的操作（红色）</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt; table      为表格添加基础样式。&lt;br&gt; thead      表格标题行的容器元素（ tr  ），用来标识表格列。&lt;br&gt; tbody      表格主体中的表格行的容器元素（ tr  ）。&lt;br&gt; tr      一组出现在单行上的表格单元格的容器元素（ t
-      
-    
-    </summary>
-    
-      <category term="bootstrap" scheme="http://yoursite.com/categories/bootstrap/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>bootstrap之代码</title>
     <link href="http://yoursite.com/2019/09/05/bootstrap%E4%B9%8B%E4%BB%A3%E7%A0%81/"/>
     <id>http://yoursite.com/2019/09/05/bootstrap之代码/</id>
@@ -173,6 +193,29 @@
       
       
         &lt;p&gt;var：描述变量，使变量略微倾斜&lt;br&gt;kbd：表示按键输入&lt;br&gt;pre：显示出的效果与源码一致，可换行，可显示空格&lt;br&gt;pre class=”pre-scrollable” :使多行代码带有滚动条&lt;br&gt;samp：表示电脑输入&lt;br&gt;code：表示代码片段（背景变红）
+      
+    
+    </summary>
+    
+      <category term="bootstrap" scheme="http://yoursite.com/categories/bootstrap/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>bootstrap之表格</title>
+    <link href="http://yoursite.com/2019/09/05/bootstrap%E4%B9%8B%E8%A1%A8%E6%A0%BC/"/>
+    <id>http://yoursite.com/2019/09/05/bootstrap之表格/</id>
+    <published>2019-09-04T16:00:00.000Z</published>
+    <updated>2019-09-05T15:47:23.172Z</updated>
+    
+    <content type="html"><![CDATA[<p> table      为表格添加基础样式。<br> thead      表格标题行的容器元素（ tr  ），用来标识表格列。<br> tbody      表格主体中的表格行的容器元素（ tr  ）。<br> tr      一组出现在单行上的表格单元格的容器元素（ td   或  th  ）。<br> td      默认的表格单元格。<br> th      特殊的表格单元格，用来标识列或行（取决于范围和位置）。必须在  thead   内使用。<br> caption      关于表格存储内容的描述或总结。</p><p>table类<br> table    为任意 table 添加基本样式 (只有横向分隔线)<br> table-striped    在 tbody 内添加斑马线形式的条纹 ( IE8 不支持)<br> table-bordered    为所有表格的单元格添加边框<br> table-hover    在 tbody 内的任一行启用鼠标悬停状态<br> table-condensed    让表格更加紧凑<br> table-responsive    响应式布局    </p><p>tr，td，th，类<br>active    将悬停的颜色应用在行或者单元格上（灰色）<br>.success    表示成功的操作    （绿色）<br>.info    表示信息变化的操作    （蓝色）<br>.warning    表示一个警告的操作    （黄色）<br>.danger    表示一个危险的操作（红色）</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt; table      为表格添加基础样式。&lt;br&gt; thead      表格标题行的容器元素（ tr  ），用来标识表格列。&lt;br&gt; tbody      表格主体中的表格行的容器元素（ tr  ）。&lt;br&gt; tr      一组出现在单行上的表格单元格的容器元素（ t
       
     
     </summary>
@@ -365,27 +408,6 @@
     </summary>
     
       <category term="HTML" scheme="http://yoursite.com/categories/HTML/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2019/05/30/hello-world/"/>
-    <id>http://yoursite.com/2019/05/30/hello-world/</id>
-    <published>2019-05-30T06:23:50.337Z</published>
-    <updated>2019-05-30T06:23:50.337Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
     
     
   </entry>
