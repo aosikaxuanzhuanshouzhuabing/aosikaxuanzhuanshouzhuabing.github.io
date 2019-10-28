@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-10-27T16:48:00.923Z</updated>
+  <updated>2019-05-30T06:23:50.337Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>test</title>
-    <link href="http://yoursite.com/2019/10/28/test/"/>
-    <id>http://yoursite.com/2019/10/28/test/</id>
-    <published>2019-10-27T16:37:50.000Z</published>
-    <updated>2019-10-27T16:48:00.923Z</updated>
-    
-    <content type="html"><![CDATA[<p>����һ����װ��Ĳ���</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;����һ����װ��Ĳ���&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -109,29 +87,6 @@
   </entry>
   
   <entry>
-    <title>bootstrap之按钮与图片</title>
-    <link href="http://yoursite.com/2019/09/09/bootstrap%E4%B9%8B%E6%8C%89%E9%92%AE%E4%B8%8E%E5%9B%BE%E7%89%87/"/>
-    <id>http://yoursite.com/2019/09/09/bootstrap之按钮与图片/</id>
-    <published>2019-09-08T16:00:00.000Z</published>
-    <updated>2019-09-09T05:25:36.777Z</updated>
-    
-    <content type="html"><![CDATA[<p>.btn    为按钮添加基本样式<br>.btn-default    默认/标准按钮<br>.btn-primary    原始按钮样式（未被操作）<br>.btn-success    表示成功的动作<br>.btn-info    该样式可用于要弹出信息的按钮<br>.btn-warning    表示需要谨慎操作的按钮<br>.btn-danger    表示一个危险动作的按钮操作<br>.btn-link    让按钮看起来像个链接 (仍然保留按钮行为)<br>.btn-lg    制作一个大按钮<br>.btn-sm    制作一个小按钮<br>.btn-xs    制作一个超小按钮<br>.btn-block    块级按钮(拉伸至父元素100%的宽度)<br>.active    按钮被点击<br>.disabled    禁用按钮</p><p>.btn-group ：在 div 中直接使用 .btn-group 可以创建按钮组<br>btn-group-lg|sm|xs  ：控制纽组大小<br>btn-group-vertical ：使纽组垂直<br>btn-group-justified ：纽组自适应大小</p><p>caret ：按钮的向下三角形，我们是通过在button标签中添加一个是span标签元素，并且命名为“caret”</p><p>data-toggle=”dropdown” ：下拉菜单样式，data-toggle是js属性，而dropdown是属性值。</p><p>class=”dropdown-toggle ： 不加 dropdown-toggle 点击后按钮一直处于点击状态（颜色变深，有边框），当点击空白处时方可解除。添加 dropdown-toggle 点击后按钮按下鼠标处于点击状态，抬起鼠标就可解除这个状态。<br>dropdown-menu ：下拉菜单</p><p>.img-rounded    为图片添加圆角 (IE8 不支持)<br>.img-circle    将图片变为圆形 (IE8 不支持)<br>.img-thumbnail    缩略图功能<br>.img-responsive    图片响应式 (将很好地扩展到父元素)</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;.btn    为按钮添加基本样式&lt;br&gt;.btn-default    默认/标准按钮&lt;br&gt;.btn-primary    原始按钮样式（未被操作）&lt;br&gt;.btn-success    表示成功的动作&lt;br&gt;.btn-info    该样式可用于要弹出信息的按钮&lt;br
-      
-    
-    </summary>
-    
-      <category term="bootstrap" scheme="http://yoursite.com/categories/bootstrap/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>bootstrap之按钮组</title>
     <link href="http://yoursite.com/2019/09/09/bootstrap%E4%B9%8B%E6%8C%89%E9%92%AE%E7%BB%84/"/>
     <id>http://yoursite.com/2019/09/09/bootstrap之按钮组/</id>
@@ -146,6 +101,29 @@
       
         &lt;p&gt;.btn-group : 该 class 用于形成基本的按钮组。在 .btn-group 中放置一系列带有 class .btn 的按钮。    &lt;/p&gt;
 &lt;p&gt;.btn-toolbar : 该 class 有助于把几组 div class=”btn-group” 结合到一
+      
+    
+    </summary>
+    
+      <category term="bootstrap" scheme="http://yoursite.com/categories/bootstrap/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>bootstrap之按钮与图片</title>
+    <link href="http://yoursite.com/2019/09/09/bootstrap%E4%B9%8B%E6%8C%89%E9%92%AE%E4%B8%8E%E5%9B%BE%E7%89%87/"/>
+    <id>http://yoursite.com/2019/09/09/bootstrap之按钮与图片/</id>
+    <published>2019-09-08T16:00:00.000Z</published>
+    <updated>2019-09-09T05:25:36.777Z</updated>
+    
+    <content type="html"><![CDATA[<p>.btn    为按钮添加基本样式<br>.btn-default    默认/标准按钮<br>.btn-primary    原始按钮样式（未被操作）<br>.btn-success    表示成功的动作<br>.btn-info    该样式可用于要弹出信息的按钮<br>.btn-warning    表示需要谨慎操作的按钮<br>.btn-danger    表示一个危险动作的按钮操作<br>.btn-link    让按钮看起来像个链接 (仍然保留按钮行为)<br>.btn-lg    制作一个大按钮<br>.btn-sm    制作一个小按钮<br>.btn-xs    制作一个超小按钮<br>.btn-block    块级按钮(拉伸至父元素100%的宽度)<br>.active    按钮被点击<br>.disabled    禁用按钮</p><p>.btn-group ：在 div 中直接使用 .btn-group 可以创建按钮组<br>btn-group-lg|sm|xs  ：控制纽组大小<br>btn-group-vertical ：使纽组垂直<br>btn-group-justified ：纽组自适应大小</p><p>caret ：按钮的向下三角形，我们是通过在button标签中添加一个是span标签元素，并且命名为“caret”</p><p>data-toggle=”dropdown” ：下拉菜单样式，data-toggle是js属性，而dropdown是属性值。</p><p>class=”dropdown-toggle ： 不加 dropdown-toggle 点击后按钮一直处于点击状态（颜色变深，有边框），当点击空白处时方可解除。添加 dropdown-toggle 点击后按钮按下鼠标处于点击状态，抬起鼠标就可解除这个状态。<br>dropdown-menu ：下拉菜单</p><p>.img-rounded    为图片添加圆角 (IE8 不支持)<br>.img-circle    将图片变为圆形 (IE8 不支持)<br>.img-thumbnail    缩略图功能<br>.img-responsive    图片响应式 (将很好地扩展到父元素)</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;.btn    为按钮添加基本样式&lt;br&gt;.btn-default    默认/标准按钮&lt;br&gt;.btn-primary    原始按钮样式（未被操作）&lt;br&gt;.btn-success    表示成功的动作&lt;br&gt;.btn-info    该样式可用于要弹出信息的按钮&lt;br
       
     
     </summary>
